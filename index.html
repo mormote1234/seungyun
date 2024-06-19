@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹툰 소개</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .webtoon {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative; /* 상대 위치 지정 */
+        }
+        .webtoon h2 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .webtoon p {
+            color: #666;
+            line-height: 1.6;
+            margin-top: 5px;
+        }
+        .webtoon a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .webtoon a:hover {
+            text-decoration: underline;
+        }
+        .webtoon img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        /* 배경 이미지 설정 */
+        .webtoon.여신강림 {
+            background-image: url('외지주.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white; /* 텍스트 색상 설정 */
+            padding: 20px; /* 내부 여백 설정 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>추천 웹툰</h1>
+    </header>
+    <div class="container">
+        <div class="webtoon">
+            <img src="https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F183559%2Fthumbnail%2Fthumbnail_IMAG21_5f3fec31-5c95-4afe-a73f-3046288edb47.jpg" alt="신의 탑">
+            <div>
+                <h2>신의 탑</h2>
+                <p><strong>작가:</strong> SIU</p>
+                <p><strong>설명:</strong> 탑 속으로 들어간 소년, '밤'이라는 이름의 주인공이 자신의 소망을 이루기 위한 탑 정상을 향한 모험을 그린 판타지 웹툰.</p>
+                <p>더 자세한 내용은 <a href="https://comic.naver.com/webtoon/list.nhn?titleId=183559" target="_blank">네이버 웹툰</a>에서 확인할 수 있습니다.</p>
+            </div>
+        </div>
+        <div class="webtoon">
+            <img src="https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F602910%2Fthumbnail%2Fthumbnail_IMAG21_e861f2cf-6157-4d33-8e02-7b4cbf0a8baf.jpg" alt="윈드브레이커">
+            <div>
+                <h2>윈드브레이커</h2>
+                <p><strong>작가:</strong> 조용석</p>
+                <p><strong>설명:</strong> 스케이트보드를 사랑하는 주인공과 그의 친구들이 성장하며 겪는 이야기를 그린 스포츠 웹툰.</p>
+                <p>더 자세한 내용은 <a href="https://comic.naver.com/webtoon/list?titleId=602910" target="_blank">네이버 웹툰</a>에서 확인할 수 있습니다.</p>
+            </div>
+        </div>
+        <div class="webtoon 여신강림"> <!-- 여신강림 웹툰에 클래스 추가 -->
+            <img src="https://dummyimage.com/100x100/ccc/fff&text=여신강림" alt="여신강림">
+            <div>
+                <h2>여신강림</h2>
+                <p><strong>작가:</strong> 삼촌</p>
+                <p><strong>설명:</strong> 외모지상주의를 주제로 한 여자 주인공이 금발 미남인 남자 주인공과의 로맨스와 변화를 그린 로맨스 웹툰.</p>
+                <p>더 자세한 내용은 <a href="https://comic.naver.com/webtoon/list?titleId=703846" target="_blank">네이버 웹툰</a>에서 확인할 수 있습니다.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
